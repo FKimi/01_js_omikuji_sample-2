@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+  }
+  
+  button {
+    width: 200px;
+    height: 70px;
+  }
+  
+  main {
+    max-width: 480px;
+    height: 100vh;
+    margin: 0 auto;
+  }
+  
+  section {
+    height: calc(50vh/4);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .hiroyuki-photo {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin: 20px auto;
+  }
+  
+  .hand {
+    margin: 10px;              /* 周りに余白 */
+    background: blue;       /* 緑色の背景 */
+    color: white;              /* 文字を白に */
+  }
+  
